@@ -32,9 +32,7 @@ src/
 ├── auth/                       # Auth logic  
 │   ├── auth.controller.ts      # Register/login endpoints  
 │   ├── auth.service.ts         # User validation & JWT  
-│   ├── strategies/             # Passport strategies  
-│   │   ├── local.strategy.ts   # Email/password login  
-│   │   └── jwt.strategy.ts     # JWT validation  
+│   
 ├── users/                      # User management  
 │   ├── user.entity.ts          # User model (email, roles, etc.)  
 ├── posts/                      # Blog posts  
@@ -90,9 +88,9 @@ Technologies Used
 License
 MIT
 
-📬 Contact
+Contact
 Questions? Reach out!
 Email: ademuyiwaikotun@hotmail.com
 
 
-Happy coding! 🚀
+Happy coding!
